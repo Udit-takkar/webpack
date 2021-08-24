@@ -1,7 +1,4 @@
-import "../styles/index.css";
-const obj = {
-  name: "Udit Takkar",
-  age: 20,
-};
+import { render } from "react-dom";
+import App from "./components/App";
 
-console.log(obj);
+render(<App />, document.getElementById("root"));
